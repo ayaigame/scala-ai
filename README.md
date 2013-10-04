@@ -3,7 +3,9 @@
 > A practice repo for us to brush up on Scala/AI
 
 ## Scala
+
 Documentation, Install Guide: http://www.scala-lang.org/documentation/
+
 Style Guide: http://docs.scala-lang.org/style/ (tl;dr: no tabs, two space please)
 
 ## SBT
@@ -11,18 +13,22 @@ Style Guide: http://docs.scala-lang.org/style/ (tl;dr: no tabs, two space please
 > Scala Build Tool
 
 Nowhere near as good as leiningen, but whatever...
+
 Install Guide: http://www.scala-sbt.org/
 
 ```
-    $# To compile
+    $ # To compile
     $ sbt compile
 
-    $# To run
+    $ # To run
+    $ # This will compile, but do sbt compile at first to check
+    $ # for anything wrong
     $ sbt run
 
-    $# To test
+    $ # To test
     $ sbt test
-    $# Make sure to run this before you submit your pull request as I already set up a unit test for your function.
+    $ # Make sure to run this before you submit your pull request 
+    $ # as I already set up a unit test for your function.
 ```
 
 There's an eclipse plugin for it, but I think everyone here probably knows how to use the terminal, right?
