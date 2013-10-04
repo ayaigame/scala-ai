@@ -1,5 +1,8 @@
 # Scala AI
 
+[![Build Status](https://travis-ci.org/timothyhahn/scala-ai.png)](https://travis-ci.org/timothyhahn/scala-ai.png)
+
+
 > A practice repo for us to brush up on Scala/AI
 
 ## Scala
