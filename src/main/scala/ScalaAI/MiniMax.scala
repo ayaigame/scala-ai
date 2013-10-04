@@ -13,25 +13,25 @@ object MiniMax {
   }
 
   def minimax(node: Node, depth: Int, maxing: Boolean): Double = {
-   if(depth == 0 || isTerminal(node)) {
-     return node.data
-   }
-
-  if(maxing) {
-    var alpha = nInf
-    for(child <- node.children) {
-      val value = minimax(child, depth - 1, false)
-      alpha = max(value, alpha)
-      }
-    return alpha
-  } else {
-    var alpha = pInf
-    for(child <- node.children) {
-      val value = minimax(child, depth - 1, true)
-      alpha = min(value, alpha)
+    if(depth == 0 || isTerminal(node)) {
+       return node.data
     }
-    return alpha
-   }
+
+    if(maxing) {
+      var alpha = nInf
+      for(child <- node.children) {
+        val value = minimax(child, depth - 1, false)
+        alpha = max(value, alpha)
+      }
+      return alpha
+    } else {
+      var alpha = pInf
+      for(child <- node.children) {
+        val value = minimax(child, depth - 1, true)
+        alpha = min(value, alpha)
+      }
+      return alpha
+    }
   }
 
   def run(root: Node):Double = {
