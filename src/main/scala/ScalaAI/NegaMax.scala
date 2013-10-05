@@ -14,7 +14,7 @@ object NegaMax {
     var bestvalue:Double = Double.NegativeInfinity
     var childNodes:ArrayBuffer[Node] = node.children
     for (child <- childNodes) {
-    	var childval:Double = -negamax(child, depth-1, color)
+    	var childval:Double = -negamax(child, depth-1, -color)
     	//println("Bestval is " + bestvalue)
     	bestvalue = math.max(bestvalue, childval)
     }
