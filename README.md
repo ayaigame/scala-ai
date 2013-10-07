@@ -1,6 +1,6 @@
 # Scala AI
 
-[![Build Status](https://travis-ci.org/timothyhahn/scala-ai.png)](https://travis-ci.org/timothyhahn/scala-ai.png)
+[![Build Status](https://travis-ci.org/timothyhahn/scala-ai.png)](https://travis-ci.org/timothyhahn/scala-ai)
 
 
 > A practice repo for us to brush up on Scala/AI
