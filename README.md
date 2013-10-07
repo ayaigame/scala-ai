@@ -5,6 +5,10 @@
 
 > A practice repo for us to brush up on Scala/AI
 
+## Status:
+
+4/7 Completed.
+
 ## Scala
 
 Documentation, Install Guide: http://www.scala-lang.org/documentation/
@@ -60,7 +64,7 @@ If you need a refresher Problem 2 of this:
 
 https://www.cs.drexel.edu/~jpopyack/Courses/AI/Sp11/assignments/HW2/index.html
 
-### Kurt Wheeler - Breadth First
+### &#x2713; Kurt Wheeler - Breadth First
 
 I gave you a graph where you are looking for the number 3. Do it breadth first. Print out the search path and return the key as it is found. Breadth first should found the answer almost instantly.
 
@@ -75,13 +79,13 @@ I gave you a graph where you are looking for the number 3. Do it depth first. Pr
 http://en.wikipedia.org/wiki/Depth-first_search
 http://en.wikibooks.org/wiki/Artificial_Intelligence/Search/Heuristic_search/Depth-first_search
 
-### Timothy Hahn - Minimax
+### &#x2713; Timothy Hahn - Minimax
 Already done. Jarrad and Rob are going to be doing variations of minimax, so feel free to copy stuff from mine.
 
-### Rob Mruczek - Alpha Beta
+### &#x2713; Rob Mruczek - Alpha Beta
 Basically modify my minimax to support alpha beta pruning. Print a message when something is pruned. You don't need to do a heuristic check, just grab the data at the node, and instead of generating rules, go through all the children.
 
-### Jarrad Battaglia - Negamax
+### &#x2713; Jarrad Battaglia - Negamax
 Basically turn my minimax into a negamax. "color" is either the number 1 or -1. You may be able to keep my boolean parameters, by using an if statement/negating the statement. You do not have to use alpha beta pruning. The function GenerateMoves is just all the children of a node.
 
 http://en.wikipedia.org/wiki/Negamax
