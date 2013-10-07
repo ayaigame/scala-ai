@@ -3,7 +3,7 @@ import java.util.Random
 
 object FlailWildly {
   def run(s1: String, s2: String):String = {
-    Console.println("Running FlailWildly")
+    Console.println("\n\nRunning FlailWildly")
 
     // a rule is (index, char)
     // so for the word "beach" the rule (0,p) will result in "peach"
@@ -101,7 +101,7 @@ object FlailWildly {
     }
 
     Console.println("Final State: " + currentState)
-    Console.println("FlailWildly finished after " + count + " rules where applied")
+    Console.println("FlailWildly finished after " + count + " rules where applied\n\n")
 
     return currentState
   }
