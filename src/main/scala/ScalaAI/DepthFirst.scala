@@ -2,12 +2,13 @@ package ScalaAI
 
 object DepthFirst {
   def searchNode(node: Node, goal: Int):Int = {
+
+    Console.println("Checking " + node.data)
     if(node.data == goal) {
       Console.println("\nFound it!")
       return node.data
     }
 
-    Console.println("Checking " + node.data)
 
 
     for(child <- node.children) {
