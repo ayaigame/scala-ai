@@ -91,7 +91,7 @@ object FlailWildly {
         }
 
         Console.println("Final State: " + currentState)
-        Console.println("FlailWildly finished after " + count + " rules where applied\n\n")
+        Console.println("FlailWildly finished after " + count + " rules were applied\n\n")
 
         return currentState
     }
