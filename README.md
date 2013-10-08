@@ -7,7 +7,7 @@
 
 ## Status:
 
-4/7 Completed.
+5/7 Completed.
 
 ## Scala
 
@@ -48,7 +48,7 @@ If you add this plugin, do it globally.
 
 ## Tasks
 
-### Josh Henry - Flail Wildly
+### &#x2713; Josh Henry - Flail Wildly
 
 Basically, you're going to take one word "beach" and turn it into the word "shore". You can only change one letter at a time (you do it randomly) and only if the word you're changing to is a valid word. A list of words is in scala/main/resources.
 
