@@ -7,7 +7,7 @@
 
 ## Status:
 
-5/7 Completed.
+6/7 Completed.
 
 ## Scala
 
@@ -72,7 +72,7 @@ http://en.wikipedia.org/wiki/Breadth-first_search
 http://en.wikibooks.org/wiki/Artificial_Intelligence/Search/Exhaustive_search/Breadth-first_search
 https://www.cs.drexel.edu/~jpopyack/Courses/AI/Sp11/notes/Graphsearch-continued.pdf
 
-### Ryan Lerch - Depth First
+### &#x2713; Ryan Lerch - Depth First
 
 I gave you a graph where you are looking for the number 3. Do it depth first. Print out the search path and return the key as it is found. You do not need to iteratively deepen or worry about your depth limit since it's like 3 levels deep
 
